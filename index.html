@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="style.css">
+  <title>Lala</title>
+</head>
+<body>
+    <div style="position: relative;">
+        <div class="myMenu close">
+            <h2>My List Of Songs</h1>
+                <ul class="collection"></ul>
+        </div>
+        <div class="container">
+            <div class="myApp">
+                <!-- myMenu -->
+                 
+                <!-- header -->
+    
+                    <nav class="header">
+                        <div class="menu">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="round"><i class="fa fa-cog fa-2x modeSwitch darkMode" aria-hidden="true"></i></div>
+                    </nav>
+                <!-- body -->
+                <div class="appBody ">
+                    <div class="mediaImg">
+                        
+                        <img  src="./img/Cover.jpg" alt="">
+                    </div>
+                    <div class="controls">
+                        <div class="controlContainer">
+                            <div class="crossOne">
+                                <i class="fa fa-undo" id="reLoadASong" aria-hidden="true"></i>
+                            </div>
+                            <div class="crossTwo">
+                                <i class="fa fa-fast-backward" id="backward" aria-hidden="true"></i>
+                                
+                                <i class="fa fa-play " id="play" aria-hidden="true"></i>
+                                <i class="fa fa-fast-forward" id="forward" aria-hidden="true"></i>
+                                <audio  id= "song">
+                                </audio>
+                            </div>
+                            <div  class="crossThree">
+                                <i class="fa fa-random" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fotter -->
+                <div class="appFooter">
+                    <h4 class="songtitle"></h4>
+                    <div class="bar">
+                        <div class="meter">
+                            <span class="outline"></span>
+                        </div>
+                        <h3 class="time-display">00:00</h3>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
