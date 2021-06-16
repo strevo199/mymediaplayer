@@ -2,38 +2,12 @@
 class AllSong{
     constructor(){
         this.songCollection = [
-            {songName:'./audio/When I Was Your Man - Bruno Mars.mp3'},
-            {songName:'./audio/Girls-like-you.mp3'}, 
+            {songName:'./audio/test2.mp3'},
+            {songName:'./audio/test1.mp3'}, 
             {songName:'./audio/Maroon-5-Memories-01.mp3'},
-            {songName:'./audio/18 What You\'re Waiting For (Acoustic) - (SongsLover.com).mp3'},
-            {songName:'./audio/12 Nothing Aches Like a Broken Heart - (SongsLover.com).mp3'},
-            {songName:'./audio/08 Suzanne - (SongsLover.com).mp3'},
-            {songName:'./audio/Tems_Try_Me_9jaflaver.com_.mp3'},
-            // 
-            // {songName:'./audio/When I Was Your Man - Bruno Mars.mp3'},
-            // {songName:'./audio/vlc-record-2020-06-15-08h48m35s-ademola%20.remi.mp3'},
-            // {songName:'./audio/Girls-like-you.mp3'},
-            // {songName:'./audio/Maroon-5-Memories-01.mp3'},
-            // {songName:'./audio/18 What You\'re Waiting For (Acoustic) - (SongsLover.com).mp3'},
-            // {songName:'./audio/12 Nothing Aches Like a Broken Heart - (SongsLover.com).mp3'},
-            // {songName:'./audio/08 Suzanne - (SongsLover.com).mp3'},
-            // {songName:'./audio/Tems_Try_Me_9jaflaver.com_.mp3'},
-            // {songName:'./audio/When I Was Your Man - Bruno Mars.mp3'},
-            // {songName:'./audio/vlc-record-2020-06-15-08h48m35s-ademola%20.remi.mp3'},
-            // {songName:'./audio/Girls-like-you.mp3'},
-            // {songName:'./audio/Maroon-5-Memories-01.mp3'},
-            // {songName:'./audio/18 What You\'re Waiting For (Acoustic) - (SongsLover.com).mp3'},
-            // {songName:'./audio/12 Nothing Aches Like a Broken Heart - (SongsLover.com).mp3'},
-            // {songName:'./audio/08 Suzanne - (SongsLover.com).mp3'},
-            // {songName:'./audio/Tems_Try_Me_9jaflaver.com_.mp3'},
-            // {songName:'./audio/When I Was Your Man - Bruno Mars.mp3'},
-            // {songName:'./audio/vlc-record-2020-06-15-08h48m35s-ademola%20.remi.mp3'},
-            // {songName:'./audio/Girls-like-you.mp3'},
-            // {songName:'./audio/Maroon-5-Memories-01.mp3'},
-            // {songName:'./audio/18 What You\'re Waiting For (Acoustic) - (SongsLover.com).mp3'},
-            // {songName:'./audio/12 Nothing Aches Like a Broken Heart - (SongsLover.com).mp3'},
-            // {songName:'./audio/08 Suzanne - (SongsLover.com).mp3'},
-            // {songName:'./audio/Tems_Try_Me_9jaflaver.com_.mp3'},
+            {songName:'./audio/test3.mp3'},
+            
+           
         ];
     }
 
